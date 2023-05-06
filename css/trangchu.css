@@ -1,0 +1,387 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border-bottom: 1px solid #7f6d79;
+  padding: 10px;
+  align-items: center;
+  font-weight: 500;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+.logo {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+a:hover {
+  color: brown;
+}
+
+.others {
+  display: flex;
+  justify-content: space-between;
+  font-size: 35px;
+}
+li {
+  list-style: none;
+  margin: 20px;
+}
+li input {
+  width: 350px;
+  font-size: 20px;
+  padding: 15px;
+  position: relative;
+}
+.icon-search {
+  position: absolute;
+  left: 1730px;
+  top: 45px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.anh-nen img {
+  border-radius: 130px 0px;
+  width: 1500px;
+  margin-top: 70px;
+  margin-left: 200px;
+}
+
+.content1 {
+  text-align: center;
+}
+.item a {
+  font-size: 25px;
+  margin: 30px;
+
+  color: #7f6d79;
+}
+.item a:hover {
+  background-color: white;
+  border-bottom: 4px solid black;
+}
+
+.image-item1 {
+  border-radius: 100px 0px;
+  width: 1600px;
+  margin-left: 200px;
+}
+.image-item2 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.image-item2 img {
+  width: 650px;
+  border-radius: 100px 0px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
+  color: #6d706f;
+  margin-top: 20px;
+}
+.footer div p {
+  margin-top: 30px;
+}
+/*------------------spchitiet-----*/
+.img-big img {
+  width: 700px;
+  height: 1000px;
+  margin: 60px;
+}
+
+.content-top {
+  display: flex;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+.content-right {
+  margin-top: 70px;
+  font-size: 20px;
+  gap: 30px;
+}
+.content-right div {
+  margin: 50px;
+}
+.size button {
+  background-color: white;
+  color: #6d706f;
+  border: 2px solid#6d706f;
+  padding: 8px;
+  margin: 25px;
+}
+.size button:hover {
+  border: 4px solid black;
+}
+.quantity input {
+  margin-top: 5px;
+  width: 50px;
+  font-size: 20px;
+
+  color: black;
+}
+.button button {
+  background-color: black;
+  color: white;
+
+  border-radius: 15px 0px;
+  border: 2px solid black;
+  width: 300px;
+  padding: 20px 20px;
+  font-size: 25px;
+}
+.button button:hover {
+  background-color: white;
+  color: black;
+}
+.icon-star span {
+  color: orange;
+}
+
+/* sản phẩm */
+.main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.noi-dung p {
+  color: #6d706f;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 10px;
+}
+.directional {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.icon-cart div {
+  color: white;
+  width: 50px;
+  background-color: black;
+  font-size: 40px;
+  padding: 3px;
+  border-radius: 10px 0px;
+  margin-bottom: 20px;
+}
+.icon-cart div:hover {
+  background-color: white;
+  border: 2px solid black;
+  color: black;
+}
+.imgcontent {
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+.imgcontent img {
+  width: 400px;
+  height: 600px;
+}
+/*giỏ hàng*/
+.header a {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+}
+.cart {
+  display: flex;
+  justify-content: space-around;
+  font-size: 30px;
+}
+.cart-right {
+  width: 700px;
+  background-color: #fbfbfc;
+  padding: 50px;
+  position: sticky;
+  right: 0;
+}
+.cart-right div {
+  margin: 30px;
+}
+.cart-right button {
+  margin-top: 100px;
+  width: 500px;
+  padding: 20px;
+  background-color: black;
+  color: white;
+  border-radius: 15px 0px;
+}
+.cart-right button:hover {
+  color: black;
+  background-color: white;
+}
+.btn-delete {
+  font-size: 60px;
+}
+
+#body img {
+  width: 200px;
+}
+/*ve chung toi*/
+.content-image img {
+  width: 100%;
+  margin: 30px;
+}
+
+/*dawngky-dangnhap*/
+.dangkynhap {
+  display: flex;
+  justify-content: space-around;
+  font-size: 30px;
+  gap: 50px;
+}
+.dangkynhap p {
+  color: #a0a2a2;
+  margin: 30px;
+}
+.dangkynhap button {
+  width: 500px;
+  color: white;
+  background-color: black;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-radius: 20px 0px;
+  font-size: 25px;
+}
+.dangkynhap button:hover {
+  background-color: white;
+  color: black;
+}
+.dang-ky button a {
+  color: white;
+}
+.dang-ky button a:hover {
+  color: black;
+}
+.dang-nhap {
+  text-align: center;
+  width: 700px;
+  background-color: white;
+  margin-bottom: 30px;
+}
+.dang-nhap div input {
+  width: 500px;
+  padding: 20px;
+  font-size: 20px;
+  margin-top: 20px;
+  border: 1px solid #a0a2a2;
+}
+.dang-ky {
+  text-align: center;
+  width: 800px;
+  border-left: 1px solid #a0a2a2;
+  margin-bottom: 30px;
+}
+/*dangky*/
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 100px;
+}
+
+.form {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #dadada;
+  width: 500px;
+  border-radius: 6px;
+}
+
+.form-heading {
+  font-size: 35px;
+  font-weight: 600;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.form-input {
+  height: 36px;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid #dadada;
+  padding: 0 16px;
+}
+
+.form-lable {
+  font-size: 16px;
+  padding-bottom: 15px;
+}
+
+.form-btn {
+  height: 36px;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid transparent;
+  padding: 0 16px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+#errorUser,
+#errorEmail,
+#errorPassword {
+  color: red;
+  margin-top: 10px;
+}
+
+.span-header {
+  font-size: 20px;
+  padding: 0 1px;
+}
+
+.span-header-logout {
+  cursor: pointer;
+}
+/*admin*/
+.title {
+  margin: 20px;
+  padding: 15px;
+  width: 300px;
+
+  background-color: rgb(238, 179, 179);
+  border-radius: 15px 0px;
+}
+.title:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
+.title a {
+  text-decoration: none;
+  font-size: 30px;
+}
+.title-top {
+  text-align: center;
+  margin-top: 50px;
+}
